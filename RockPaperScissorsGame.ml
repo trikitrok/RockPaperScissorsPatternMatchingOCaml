@@ -8,7 +8,7 @@ type result =
   | Lose of gesture * gesture
   | Tie of gesture
 
-let rec hand g1 g2 =
+let hand g1 g2 =
   match g1 with
   | Paper ->
     (match g2 with 
